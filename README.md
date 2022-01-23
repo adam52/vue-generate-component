@@ -1,6 +1,6 @@
 # Vue js component generator [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-CLI util for easy generate Vue js component
+CLI utility to easily generate Vue js components.
 
 ## Installation
 
@@ -94,7 +94,7 @@ describe('FooterComponent', () => {
 <style src="./footer.component.scss" scoped lang="scss"></style>
 ```
 
-### Create new component single file
+### Create new single file component
 
 ```bash
 vgc -s home
@@ -137,7 +137,7 @@ will generate one vue file:
 </style>
 ```
 
-### Create new component single file inside new folder
+### Create new single file component inside new folder
 
 ```bash
 vgc -s home --folder
